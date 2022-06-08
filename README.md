@@ -39,9 +39,9 @@ yarn add github:adiwajshing/baileys
 Then import in your code using:
 ``` ts 
 // for multi-device
-import makeWASocket from '@adiwajshing/baileys'
+import makeWASocket from '@OMINDUANJANA/baileys'
 // for legacy web
-import {makeWALegacySocket} from '@adiwajshing/baileys'
+import {makeWALegacySocket} from '@OMINDUANJANA/baileys'
 ```
 
 ## Unit Tests
@@ -51,7 +51,7 @@ TODO
 ## Connecting
 
 ``` ts
-import makeWASocket, { DisconnectReason } from '@adiwajshing/baileys'
+import makeWASocket, { DisconnectReason } from '@OMINDUANJANA/baileys'
 import { Boom } from '@hapi/boom'
 
 async function connectToWhatsApp () {
